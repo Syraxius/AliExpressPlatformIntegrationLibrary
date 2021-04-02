@@ -41,7 +41,7 @@ def get_item(item_id):
     }
 
     url = get_standard_item_detail_url(item_id)
-    driver = get_driver(headless=False)
+    driver = get_driver(headless=True)
     driver.get(url)
 
     item['title'] = get_title(driver)
