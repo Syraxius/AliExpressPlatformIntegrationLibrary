@@ -1,7 +1,18 @@
 # AliExpress Platform Integration Library
-A standard set of libraries for integrating with the AliExpress platform. 
+A standard set of libraries for integrating with the AliExpress platform.
 
 Currently a work in progress.
+
+## Features:
+- Synchronize an item's information, including:
+  - title,
+  - images, (WIP)
+  - price,
+  - description,
+  - SKUs, (WIP)
+  - shipping estimations, (WIP)
+  - etc.
+- Make a purchase automatically.
 
 ## Setting up (Ubuntu 20.04):
 ```
