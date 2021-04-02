@@ -1,0 +1,1 @@
+STANDARD_TEST_URL = 'https://www.aliexpress.com/item/4001215143666.html?spm=a2g01.12617084.fdpcl001.1.7692EBjHEBjHac&gps-id=5547572&scm=1007.19201.130907.0&scm_id=1007.19201.130907.0&scm-url=1007.19201.130907.0&pvid=fd9f92f9-6559-403d-a825-1314c2ab04fe'
