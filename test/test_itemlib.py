@@ -1,7 +1,7 @@
 import unittest
 
-from lib import formatlib
-from lib import itemlib
+from aliexpress_platform_integration_lib import formatlib
+from aliexpress_platform_integration_lib import itemlib
 from test.configs import STANDARD_TEST_URL
 
 

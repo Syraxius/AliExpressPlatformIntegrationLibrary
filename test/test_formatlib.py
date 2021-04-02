@@ -1,6 +1,6 @@
 import unittest
 from test.configs import STANDARD_TEST_URL
-from lib import formatlib
+from aliexpress_platform_integration_lib import formatlib
 
 
 class TestFormatLib(unittest.TestCase):
