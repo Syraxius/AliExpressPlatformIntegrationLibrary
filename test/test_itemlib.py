@@ -15,6 +15,7 @@ class TestItemLib(unittest.TestCase):
         self.assertGreater(item['price_usd_min'], 0)
         self.assertGreater(item['price_usd_max'], 0)
         self.assertIsNotNone(item['description_html'])
+        self.assertGreater(len(item['images']), 0)
 
 
 if __name__ == '__main__':

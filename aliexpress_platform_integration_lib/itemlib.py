@@ -31,6 +31,11 @@ def get_description_html(driver):
     return r.content
 
 
+def get_images(driver):
+    data = driver.execute_script('return window.runParams')
+    return data['data']['imageModule']['imagePathList']
+
+
 def get_item(item_id):
     item = {
         'title': None,
@@ -38,6 +43,7 @@ def get_item(item_id):
         'price_usd_min': -1,
         'price_usd_max': -1,
         'description': None,
+        'images': [],
     }
 
     url = get_standard_item_detail_url(item_id)
@@ -49,5 +55,6 @@ def get_item(item_id):
     item['order_count'] = get_order_count(driver)
     item['price_usd_min'], item['price_usd_max'] = get_price(driver)
     item['description_html'] = get_description_html(driver)
+    item['images'] = get_images(driver)
 
     return item
