@@ -6,10 +6,16 @@ Currently a work in progress.
 ## Features:
 - Synchronize an item's information, including:
   - title,
-  - images, (WIP)
+  - images,
   - price,
   - description,
   - SKUs, (WIP)
+    - Combinations (WIP)
+    - Pricing (WIP)
+    - Weight (WIP)
+    - Quantity (WIP)
+    - Thumbnails (WIP)
+    - Thumbnails Linkage (WIP)
   - shipping estimations, (WIP)
   - etc.
 - Make a purchase automatically.
